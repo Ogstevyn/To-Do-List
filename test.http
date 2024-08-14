@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/tasks
+
+###
+
+POST http://localhost:3001/api/tasks
+content-type: application/json
+
+{
+    "text": "go to concert"
+}
+###
+
+DELETE http://localhost:3001/api/tasks/4
